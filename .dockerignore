@@ -1,0 +1,40 @@
+# git
+.git
+.gitattributes
+.gitignore
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# python
+__pycacahe__
+
+# logs
+*.log
+
+# hydra
+.hydra
+outputs
+
+# jupyter
+.ipynb_checkpoints
+
+# Others
+*.zip
+
+# Common
+README.md
+CHANGELOG.md
+
+# Docker
+docker-compose.yml
+Dockerfile
+
+# pytest
+.pytest_cache/

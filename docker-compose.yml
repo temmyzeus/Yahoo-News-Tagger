@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  jupyter:
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    image: yahoo-new-tagger:dev
+    ports:
+      - '8889:8889'
+    volumes:
+      - . /usr/yahoo_news
+    entrypoint: jupyter lab --port 8889
