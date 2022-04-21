@@ -4,3 +4,6 @@ base:
 dataset:
     data_dir: data/yahoo_news_release
     file_name: train.data
+    
+model:
+    n_topics: 50
